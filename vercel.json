@@ -1,6 +1,7 @@
 {
   "cleanUrls": true,
   "routes": [
+    { "handle": "filesystem" },
     { "src": "/whose-brand-is-it-anyway", "dest": "/whose-brand-is-it-anyway.html" },
     { "src": "/(.*)", "status": 404, "dest": "/404.html" }
   ]
